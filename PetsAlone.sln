@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetsAlone.Angular", "PetsAlone.Angular\PetsAlone.Angular.csproj", "{5CDCA49F-AD53-4820-9711-159D54D75A3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetsAlone.Core", "PetsAlone.Core\PetsAlone.Core.csproj", "{FF44EDDA-A9A2-4ABA-9BEA-2BD196C902F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AC662081-9B5D-438A-9746-38245D896BBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetsAlone.Mvc", "PetsAlone.Mvc\PetsAlone.Mvc.csproj", "{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetsAlone.React", "PetsAlone.React\PetsAlone.React.csproj", "{9319A28E-FF37-4BD9-9847-F480B685D516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CDCA49F-AD53-4820-9711-159D54D75A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDCA49F-AD53-4820-9711-159D54D75A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDCA49F-AD53-4820-9711-159D54D75A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDCA49F-AD53-4820-9711-159D54D75A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF44EDDA-A9A2-4ABA-9BEA-2BD196C902F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF44EDDA-A9A2-4ABA-9BEA-2BD196C902F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF44EDDA-A9A2-4ABA-9BEA-2BD196C902F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF44EDDA-A9A2-4ABA-9BEA-2BD196C902F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9319A28E-FF37-4BD9-9847-F480B685D516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9319A28E-FF37-4BD9-9847-F480B685D516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9319A28E-FF37-4BD9-9847-F480B685D516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9319A28E-FF37-4BD9-9847-F480B685D516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CDCA49F-AD53-4820-9711-159D54D75A3A} = {AC662081-9B5D-438A-9746-38245D896BBC}
+		{5DD02A4D-DC0C-4610-B7DA-AE49A1E0345D} = {AC662081-9B5D-438A-9746-38245D896BBC}
+		{9319A28E-FF37-4BD9-9847-F480B685D516} = {AC662081-9B5D-438A-9746-38245D896BBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D1598E5-E199-47EC-AE46-027544153773}
+	EndGlobalSection
+EndGlobal
